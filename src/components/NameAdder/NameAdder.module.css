@@ -5,6 +5,7 @@
     text-align: center;
     font-weight: 500;
     background-color: var(--primary-color);
+    /* min-height: 100vh; */
 }
 
     .namesInput {

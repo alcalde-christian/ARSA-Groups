@@ -1,14 +1,15 @@
 import { useRef, useState } from "react"
+import GroupsSorter from "../GroupsSorter/GroupsSorter"
 import styles from "./NameAdder.module.css"
 
 const NameAdder = () => {
-    const [name, setName] = useState([])
+    const [names, setNames] = useState([])
     const [inputValue, setInputValue] = useState("")
     const inputRef = useRef()
 
     const handleClick = () => {
         if (inputValue.trim()) {
-            setName ([...name, inputValue.trim()])
+            setNames ([...names, inputValue.trim()])
             setInputValue("")
             inputRef.current.focus()
         } else {
@@ -33,6 +34,7 @@ const NameAdder = () => {
             >
                 Agregar
             </button>
+            <GroupsSorter names={names}/>
         </div>
     )
 }
