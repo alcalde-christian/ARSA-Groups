@@ -1,4 +1,8 @@
-# Sorteador de grupos
+# Groupify
 
-Proyecto personal en React para la creación de grupos de trabajo: mediante un input son agregados uno a uno los empleados disponibles y, utilizando el método sort(), son distribuídos en tres grupos diferentes, correspondiendo a quienes realizarán tareas en alas, fuselaje y trenes, que suele ser la distribución más corriente.
+## Workgroups sorter: overview
+
+This is my first personal project using React, which is useful for creating workgroups. Employees are set one by one into a state, and then they distributed into three different groups using the sort() method. Typically, task cards during the night shift are divided into wings, fuselaje and landing gear, and that's why adding more groups is no longer an option by now.
+
+This page uses Google Analytics for tracking usage.
 
