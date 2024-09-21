@@ -1,0 +1,16 @@
+.disclaimer {
+    padding:  5%;
+    margin: 0;
+    background-color: var(--primary-color);
+    font-size: 0.7rem;
+    font-style: italic;
+}
+
+.copyright {
+    margin: 0;
+    text-align: center;
+    font-weight: 500;
+    font-size: 0.75rem;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}

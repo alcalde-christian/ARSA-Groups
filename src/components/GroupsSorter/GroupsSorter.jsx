@@ -28,10 +28,6 @@ const GroupsSorter = ({names}) => {
         setGroupThree(groupThree)
     }
 
-    console.log(groupOne)
-    console.log(groupTwo)
-    console.log(groupThree)
-
     return(
         <div className={styles.groupsSorter}>
             <button onClick={handleClick} className={styles.sortButton}>
